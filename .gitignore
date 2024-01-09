@@ -1,0 +1,41 @@
+# Ignorar arquivos e diretórios gerados por IDEs e editores de código
+.vscode/
+.idea/
+*.pyc
+
+# Ignorar arquivos de dados brutos (substitua com extensões específicas, se necessário)
+*.csv
+*.zip
+*.gz
+*.tar
+*.xlsx
+*.pkl
+
+# Ignorar arquivos de saída e diretórios de resultados
+output/
+results/
+data/
+dados/
+*.log
+*.tmp
+*.temp
+
+# Ignorar arquivos de configuração com informações sensíveis
+config.ini
+secrets.json
+cred.json
+
+# Ignorar arquivos de dependência e diretórios de ambiente virtual
+venv/
+env/
+*.env
+
+# Ignorar arquivos de cache e diretórios de cache
+__pycache__/
+.cache/
+.joblib/
+.ipynb_checkpoints/
+
+
+# Arquvivos auxliares
+aux_*.ipynb
